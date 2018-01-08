@@ -1,0 +1,23 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "Hotel booking system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "book"
+  ],
+  "author": "SteelCore",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6",
+    "multer": "^1.3.0",
+    "stripe": "^4.23.2"
+  }
+}
