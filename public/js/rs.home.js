@@ -52,7 +52,7 @@
 			// Revolution Slider Initialize
 			if($(".fullwidth_home_two_banner").get(0)) {
 				var rev = $(".fullwidth_home_two_banner").revolution({
-					delay:9000,
+					delay:80,
 					startheight:570,
 					startwidth:1350,
 

@@ -50,11 +50,11 @@
         <![endif]-->
 
     </head>
-    <body id="home_one">
+    <body id="home_one" ng-app="myApp" ng-controller="myCtrl">
         
         <!-- start preloader -->
         <div id="loader-wrapper">
-            <div class="logo"><a href="#"><span>Oxy</span>-Philips</a></div>
+            <div class="logo"><a href="#"><span>Salient</span>- Guest House</a></div>
             <div id="loader">
             </div>
         </div>
@@ -865,6 +865,9 @@
 		
         <!-- jquery library -->
         <script src="js/jquery-1.11.2.min.js"></script>
+        <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
         <!-- bootstrap -->
         <script src="js/bootstrap.min.js"></script>
 		<!-- rev slider -->
@@ -904,6 +907,24 @@
 
         <!-- my js -->
         <script src="js/main.js"></script>
+        <script>
+        setTimeout(function () {
+			
+			$('#loader-wrapper').hide();
+
+		  },5000)
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script>
+            var app = angular.module('myApp', ['']);
+            app.controller('myCtrl', function($scope,$http) {
+                alert('controller is loaded');
+                    var url='http://localhost:80/getRooms';
+                    $http.get(url).then(function(response){
+                        alert(response);
+                    })
+            });
+        </script>
 		
     </body>
 </html>

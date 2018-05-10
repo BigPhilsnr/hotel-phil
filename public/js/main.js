@@ -75,6 +75,11 @@ jQuery(document).ready(function($){
 		$('#status').fadeOut(); // will first fade out the loading animation
 		$('#loader-wrapper').delay(300).fadeOut('slow'); // will fade out the white DIV that covers the website.
 		$('body').delay(350).css({'overflow-x':'hidden'});
+		setTimeout(function () {
+		
+			$('#loader-wrapper').hide();
+
+		  },5000)
 	})
 
 	/** end prelaoder js **/

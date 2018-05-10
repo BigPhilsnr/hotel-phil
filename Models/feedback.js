@@ -2,10 +2,13 @@ var mongoose=require('mongoose');
 
 var feedbackSchema=mongoose.Schema({
 
-name:{type:String, required:true}, 
-src:{type:String,required:true},
-feedback:{type:String, required:true},
-site:{type:String, required:true}
+ 
+firstname:{type:String,required:true},
+lastname:{type:String, required:true},
+email:{type:String, required:true},
+phone:{type:String, required:true},
+message:{type:String, required:true},
+date: { type: Date, default: Date.now },
 
 });
 var Feedback=module.exports=mongoose.model('Feedback',feedbackSchema);

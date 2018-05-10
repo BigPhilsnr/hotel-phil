@@ -72,6 +72,12 @@ a:hover{
   border: none;
   margin: 0;
 }
+.yangu{
+	background-color: beige;
+	border: 1px solid;
+	
+	
+}
 .mainmenu .navbar-brand {
   padding: 0 23px 0 0;
   height: auto;
@@ -111,7 +117,7 @@ a:hover{
   top: 0;
   width: 10000%;
 }
-body#home_one .emergency_number, body#home_one .emergency_number::after{
+div#home_one .emergency_number, div#home_one .emergency_number::after{
 	background: #3ac4fa none repeat scroll 0 0;
 }
 .mainmenu .nav.navbar-nav > li > a {
@@ -206,7 +212,7 @@ body#home_one .emergency_number, body#home_one .emergency_number::after{
 /* --------------------------------------------------------
 3.					start hotel booking area CSS
 -----------------------------------------------------------*/
-body#home_one .hotel_booking_area {
+div#home_one .hotel_booking_area {
 	left: calc( 50% - 585px );
 	position: absolute;
 	text-transform: uppercase;
@@ -214,7 +220,7 @@ body#home_one .hotel_booking_area {
 	z-index: 200;
 	
 }
-body#home_two .hotel_booking_area{
+div#home_two .hotel_booking_area{
 	bottom: 2%;
 }
 .picker-container{
@@ -317,7 +323,7 @@ form#form1 .form-group {
 4.					start special offer CSS
 -----------------------------------------------------------*/
 
-body#home_one .special_offer_main {
+div#home_one .special_offer_main {
 	height: 276px;
 	position: absolute;
 	right: 0;
@@ -325,7 +331,7 @@ body#home_one .special_offer_main {
 	width: 223px;
 	z-index: 11;
 }
-body#home_two .special_offer_main {
+div#home_two .special_offer_main {
 	height: 276px;
 	position: absolute;
 	right: calc(0% + 5.7%);
@@ -341,25 +347,25 @@ body#home_two .special_offer_main {
 5.					start welcome area CSS
 -----------------------------------------------------------*/
 
-body#home_one .welcome .section_description {
+div#home_one .welcome .section_description {
   padding: 0 20% 43px;
   text-align: center;
 }
-body#home_one .welcome .section_description p{
+div#home_one .welcome .section_description p{
 	font-size: 16px;
 	font-family: 'Karla', sans-serif;
 }
-body#home_one .welcome .room_media, .accomodation_single_room .room_media, body#room_detail_page .welcome .room_media {
+div#home_one .welcome .room_media, .accomodation_single_room .room_media, div#room_detail_page .welcome .room_media {
   margin-bottom: 28px;
   text-align: center;
 }
-body#home_one .single_room_wrapper .uk-overlay, body#accomodation_page .single_room_wrapper .uk-overlay {
+div#home_one .single_room_wrapper .uk-overlay, div#accomodation_page .single_room_wrapper .uk-overlay {
   overflow: visible;
   -webkit-transition: 0.7s;
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_details {
+div#home_one .single_wrapper_details, div#accomodation_page .single_wrapper_details {
 	background: #f7c411 none repeat scroll 0 0;
 	height: 100%;
 	width: 100%;
@@ -370,47 +376,47 @@ body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_de
 	padding: 13px;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-   body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_details {
+   div#home_one .single_wrapper_details, div#accomodation_page .single_wrapper_details {
     display: none;
   }
 } 
-body#home_one .single_room_wrapper .uk-overlay:hover .single_wrapper_details, body#accomodation_page .single_room_wrapper .uk-overlay:hover .single_wrapper_details {
+div#home_one .single_room_wrapper .uk-overlay:hover .single_wrapper_details, div#accomodation_page .single_room_wrapper .uk-overlay:hover .single_wrapper_details {
 	display: block;
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;
 	transition: 0.7s;
 }
-body#home_one .single_room_wrapper .uk-overlay:hover .left_room_title a.btn, body#accomodation_page .single_room_wrapper .uk-overlay:hover .left_room_title a.btn{
+div#home_one .single_room_wrapper .uk-overlay:hover .left_room_title a.btn, div#accomodation_page .single_room_wrapper .uk-overlay:hover .left_room_title a.btn{
 	background: #63c2ea none repeat scroll 0 0;
 	color: #fff;
 }
-body#home_one .single_wrapper_details .single_wrapper_details_pad, body#accomodation_page .single_wrapper_details .single_wrapper_details_pad{
+div#home_one .single_wrapper_details .single_wrapper_details_pad, div#accomodation_page .single_wrapper_details .single_wrapper_details_pad{
 	height: 100%;
 	width: 100%;
 }
-body#home_one .single_wrapper_details h5, body#accomodation_page .single_wrapper_details h5 {
+div#home_one .single_wrapper_details h5, div#accomodation_page .single_wrapper_details h5 {
   color: #000;
   font-size: 18px;
   font-family: "Lora",serif;
   text-transform: none;
 }
-body#home_one .single_wrapper_details p, body#accomodation_page .single_wrapper_details p{
+div#home_one .single_wrapper_details p, div#accomodation_page .single_wrapper_details p{
 	color: #444;
 	font-size: 15px;
 }
-body#home_one .single_room_wrapper, body#accomodation_page .single_room_wrapper{
+div#home_one .single_room_wrapper, div#accomodation_page .single_room_wrapper{
   overflow: hidden;
 }
-body#home_one .single_wrapper_details .single_room_cost p, body#accomodation_page .single_wrapper_details .single_room_cost p{
+div#home_one .single_wrapper_details .single_room_cost p, div#accomodation_page .single_wrapper_details .single_room_cost p{
 	font-size: 18px;
 	margin-bottom: 0;
 	margin-top: 18px;
 	font-family: "Lora",serif;
 }
-body#home_one .single_wrapper_details .single_room_cost p span, body#accomodation_page .single_wrapper_details .single_room_cost p span{
+div#home_one .single_wrapper_details .single_room_cost p span, div#accomodation_page .single_wrapper_details .single_room_cost p span{
 	font-size: 11px;
 }
-body#home_one .single_wrapper_details .single_room_cost .btn, body#accomodation_page .single_wrapper_details .single_room_cost .btn {
+div#home_one .single_wrapper_details .single_room_cost .btn, div#accomodation_page .single_wrapper_details .single_room_cost .btn {
 	border: none;
 	border-left: 1px solid #444;
 	border-top: 1px solid #444;
@@ -418,24 +424,24 @@ body#home_one .single_wrapper_details .single_room_cost .btn, body#accomodation_
 	margin-bottom: -74px;
 	margin-right: -23px;
 }
-body#home_one .single_wrapper_details .single_room_cost .btn:hover, body#accomodation_page .single_wrapper_details .single_room_cost .btn:hover{
+div#home_one .single_wrapper_details .single_room_cost .btn:hover, div#accomodation_page .single_wrapper_details .single_room_cost .btn:hover{
 	background: #444;
 	color: #fff;
 }
 
-body#home_one .welcome .room_media a, .accomodation_single_room .room_media a {
+div#home_one .welcome .room_media a, .accomodation_single_room .room_media a {
   display: block;
 }
-body#home_one .welcome .left_room_title > h6, .accomodation_single_room .left_room_title > h6 {
+div#home_one .welcome .left_room_title > h6, .accomodation_single_room .left_room_title > h6 {
   font-family: "Lora",serif;
   font-size: 18px;
   text-transform: none;
 }
-body#home_one .welcome .left_room_title > p, .accomodation_single_room .left_room_title > p {
+div#home_one .welcome .left_room_title > p, .accomodation_single_room .left_room_title > p {
 	font-family: "Lora",serif;
   	font-size: 18px;
 }
-body#home_one .welcome .left_room_title > p > span, .accomodation_single_room .left_room_title > p > span {
+div#home_one .welcome .left_room_title > p > span, .accomodation_single_room .left_room_title > p > span {
 	font-size: 11px;
 }
 
@@ -451,17 +457,17 @@ body#home_one .welcome .left_room_title > p > span, .accomodation_single_room .l
 .another_facitilies_area{
 	text-align: center;
 }
-body#home_two .another_facitilies .single_facities a {
+div#home_two .another_facitilies .single_facities a {
   display: block;
   margin-bottom: 12px;
 }
-body#home_two .another_facitilies .single_facities h6 {
+div#home_two .another_facitilies .single_facities h6 {
 	margin-bottom: 30px;
 	font-size: 16px;
 	font-weight: 700;
 	color: #313a45;
 }
-body#home_two .another_facitilies .single_facities p{
+div#home_two .another_facitilies .single_facities p{
 	margin: 0;
 	color: #666666;
 	line-height: 26px;
@@ -475,10 +481,10 @@ body#home_two .another_facitilies .single_facities p{
 7. 					start Select Room area CSS
 -----------------------------------------------------------*/
 
-body#home_two .select_room_area{
+div#home_two .select_room_area{
   background: #f1f6f8;
 }
-body#home_two .select_room .select_room_content .room_thumb, body#accomodation_page .select_room .select_room_content .room_thumb {
+div#home_two .select_room .select_room_content .room_thumb, div#accomodation_page .select_room .select_room_content .room_thumb {
   position: relative;
 }
 .room_thumb.small_room_thumb > a {
@@ -486,7 +492,7 @@ body#home_two .select_room .select_room_content .room_thumb, body#accomodation_p
   height: auto;
   max-width: 100%;
 }
-body#home_two .select_room .room_details, body#accomodation_page .select_room .room_details {
+div#home_two .select_room .room_details, div#accomodation_page .select_room .room_details {
 	background: #fff none repeat scroll 0 0;
 	bottom: 5%;
 	left: 1%;
@@ -496,29 +502,29 @@ body#home_two .select_room .room_details, body#accomodation_page .select_room .r
 	width: 94%;
 	z-index: 99;
 }
-body#home_two .select_room .small_room_thumb .room_details, body#accomodation_page .select_room .small_room_thumb .room_details{
+div#home_two .select_room .small_room_thumb .room_details, div#accomodation_page .select_room .small_room_thumb .room_details{
 	padding: 11px;
 	left: -1%;
 }
-body#home_two .select_room .room_thumb .about_room, body#accomodation_page .select_room .room_thumb .about_room{
+div#home_two .select_room .room_thumb .about_room, div#accomodation_page .select_room .room_thumb .about_room{
 	margin-top: 10px;
 }
-body#home_two .select_room .small_room_thumb .about_room, body#accomodation_page .select_room .small_room_thumb .about_room {
+div#home_two .select_room .small_room_thumb .about_room, div#accomodation_page .select_room .small_room_thumb .about_room {
  	margin-top: 10px;
 }
-body#home_two .select_room .room_quality, body#accomodation_page .select_room .room_quality{
+div#home_two .select_room .room_quality, div#accomodation_page .select_room .room_quality{
 	padding-right: 18px;
 	border-right: 1px solid #d8d8d8;
 }
-body#home_two .select_room .room_quality > h5, body#accomodation_page .select_room .room_quality > h5 {
+div#home_two .select_room .room_quality > h5, div#accomodation_page .select_room .room_quality > h5 {
   font-size: 21px;
   font-family: "Lora",serif;
   color: #444444;
 }
-body#home_two .select_room .small_room_thumb .room_quality > h5, body#accomodation_page .select_room .small_room_thumb .room_quality > h5 {
+div#home_two .select_room .small_room_thumb .room_quality > h5, div#accomodation_page .select_room .small_room_thumb .room_quality > h5 {
   font-size: 16px;
 }
-body#home_two .select_room .room_rent > p, body#accomodation_page .select_room .room_rent > p{
+div#home_two .select_room .room_rent > p, div#accomodation_page .select_room .room_rent > p{
 	font-size: 18px;
 	font-family: "Lora",serif;
 	color: #131e2a;
@@ -526,10 +532,10 @@ body#home_two .select_room .room_rent > p, body#accomodation_page .select_room .
 	padding-left: 18px;
 	line-height: 20px;
 }
-body#home_two .select_room .small_room_thumb .room_rent > p, body#accomodation_page .select_room .small_room_thumb .room_rent > p{
+div#home_two .select_room .small_room_thumb .room_rent > p, div#accomodation_page .select_room .small_room_thumb .room_rent > p{
 	font-size: 16px;
 }
-body#home_two .select_room .room_rent > p > span, body#accomodation_page .select_room .room_rent > p > span{
+div#home_two .select_room .room_rent > p > span, div#accomodation_page .select_room .room_rent > p > span{
 	font-size: 11px;
 	color: #6c737a;
 }
@@ -578,7 +584,7 @@ body#home_two .select_room .room_rent > p > span, body#accomodation_page .select
 	margin: 12px auto 10px;
 	
 }
-body#home_one .nav-tabs > li.active > a, body#home_one .nav-tabs > li.active > a:focus, body#home_one .nav-tabs > li.active > a:hover, body#home_one  .nav-tabs > li.active > a > img{
+div#home_one .nav-tabs > li.active > a, div#home_one .nav-tabs > li.active > a:focus, div#home_one .nav-tabs > li.active > a:hover, div#home_one  .nav-tabs > li.active > a > img{
 	color: #58bee8;
 	cursor: pointer;
 	border: none;
@@ -620,7 +626,7 @@ body#home_one .nav-tabs > li.active > a, body#home_one .nav-tabs > li.active > a
 -----------------------------------------------------------*/
 
 
-body#home_two .hotel_showcase .owl-carousel .owl-item img{
+div#home_two .hotel_showcase .owl-carousel .owl-item img{
 	-webkit-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -628,16 +634,16 @@ body#home_two .hotel_showcase .owl-carousel .owl-item img{
 	-o-transition: .5s;
 	transition: .5s;
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item img:hover{
+div#home_two .hotel_showcase .owl-carousel .owl-item img:hover{
 	-webkit-filter: grayscale(1%);
 	-o-filter: grayscale(1%);
 	filter: grayscale(1%);
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item a{
+div#home_two .hotel_showcase .owl-carousel .owl-item a{
 	display: block;
 	position: relative;
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item a i {
+div#home_two .hotel_showcase .owl-carousel .owl-item a i {
 	background: #fff none repeat scroll 0 0;
 	border-radius: 50%;
 	height: 35px;
@@ -653,7 +659,7 @@ body#home_two .hotel_showcase .owl-carousel .owl-item a i {
 	transition: 0.6s;
 	color: #131e2a;
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item a:hover i{
+div#home_two .hotel_showcase .owl-carousel .owl-item a:hover i{
 	top: calc(50% - 18px);
 }
 
@@ -701,15 +707,15 @@ body#home_two .hotel_showcase .owl-carousel .owl-item a:hover i{
 .about_us .showcase .lslide.active > img {
   min-height: 338px;
 }
-body#home_two .about_details {
+div#home_two .about_details {
   margin-top: 30px;
 }
-body#home_two .about_details > p {
+div#home_two .about_details > p {
 	color: #666666;
 	line-height: 26px;
 	margin: 0;
 }
-body#home_two .hotel_thumb > img {
+div#home_two .hotel_thumb > img {
   height: auto;
   width: 100%;
 }
@@ -791,18 +797,18 @@ div#customer_says_slider .slider_says i {
 .contact_us .social_icons {
  	padding: 11px 24px;
 }
-.contact_us .social_icons ul, body#about_us_page .single_staff .social_icons ul, body#staff_page .single_staff .social_icons ul{
+.contact_us .social_icons ul, div#about_us_page .single_staff .social_icons ul, div#staff_page .single_staff .social_icons ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.contact_us .social_icons ul li, body#about_us_page .single_staff .social_icons ul li, body#contact_us_page .social_icons > ul > li, body#staff_page .social_icons > ul > li{
+.contact_us .social_icons ul li, div#about_us_page .single_staff .social_icons ul li, div#contact_us_page .social_icons > ul > li, div#staff_page .social_icons > ul > li{
 	float: left;
 }
 .contact_us .social_icons ul li a {
  	padding-left: 29px;
 }
-.contact_us .social_icons ul li a i, body#contact_us_page .social_icons > ul > li > i{
+.contact_us .social_icons ul li a i, div#contact_us_page .social_icons > ul > li > i{
 	font-size: 20px;
 }
 
@@ -815,7 +821,7 @@ div#customer_says_slider .slider_says i {
 12. 					end error page CSS
 -----------------------------------------------------------*/
 
-body#error_page .error_area {
+div#error_page .error_area {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
@@ -828,22 +834,22 @@ body#error_page .error_area {
 .error_area .container {
   position: relative;
 }
-body#error_page .error{
+div#error_page .error{
 	position: relative;
 }
-body#error_page .error > p {
+div#error_page .error > p {
 	color: #313a45;
 	font-size: 282px;
 	line-height: 250px;
 	margin-bottom: 17px;
 }
-body#error_page .error h3 {
+div#error_page .error h3 {
   color: #fe5d5d;
   font-size: 44px;
   padding-bottom: 35px;
   margin-bottom: 70px;
 }
-body#error_page .error .section_title.nice_title > h3::after {
+div#error_page .error .section_title.nice_title > h3::after {
 	background: rgba(0, 0, 0, 0) url("img/nice-title-error.png") no-repeat scroll 0 0;
 	left: 15%;
 }
@@ -912,27 +918,27 @@ body#error_page .error .section_title.nice_title > h3::after {
 -----------------------------------------------------------*/
 
 
-body#about_us_page .breadcrumb_main_area, body#staff_page .breadcrumb_main_area{
+div#about_us_page .breadcrumb_main_area, div#staff_page .breadcrumb_main_area{
 	background: url(img/about-us-breadcrumb.jpg) no-repeat center center / cover #000000;
 	position: relative;
 }
-body#room_detail_page .deluxe_room_detail .single_facilities_name{
+div#room_detail_page .deluxe_room_detail .single_facilities_name{
 
 }
-body#about_us_page .facilities_main_part .facilities_name, body#room_detail_page .deluxe_room_detail .facilities_name{
+div#about_us_page .facilities_main_part .facilities_name, div#room_detail_page .deluxe_room_detail .facilities_name{
 	padding: 0 4px;
 }
-body#about_us_page .facilities_name .col-md-2, body#about_us_page .facilities_name .col-lg-2{
+div#about_us_page .facilities_name .col-md-2, div#about_us_page .facilities_name .col-lg-2{
 	width: 20%;
 }
-body#about_us_page .single_facilities_name > li > img, body#room_detail_page .single_facilities_name > li > img, body#booking_page .single_facilities_name > li > img{
+div#about_us_page .single_facilities_name > li > img, div#room_detail_page .single_facilities_name > li > img, div#booking_page .single_facilities_name > li > img{
 	float: left;
 	margin-right: 8px;
 }
-body#about_us_page .single_facilities_name > li:first-child, body#room_detail_page .single_facilities_name > li:first-child, body#booking_page .single_facilities_name > li:first-child{
+div#about_us_page .single_facilities_name > li:first-child, div#room_detail_page .single_facilities_name > li:first-child, div#booking_page .single_facilities_name > li:first-child{
 	margin-bottom: 30px;
 }
-body#about_us_page .single_facilities_name > li > p, body#room_detail_page .single_facilities_name > li > p, body#booking_page .single_facilities_name > li > p {
+div#about_us_page .single_facilities_name > li > p, div#room_detail_page .single_facilities_name > li > p, div#booking_page .single_facilities_name > li > p {
 	color: #313a45;
 	font-weight: 700;
 	line-height: 34px;
@@ -940,41 +946,41 @@ body#about_us_page .single_facilities_name > li > p, body#room_detail_page .sing
 	margin-right: 0;
 	margin-top: 0;
 }
-body#about_us_page .single_facilities_name > a.btn {
+div#about_us_page .single_facilities_name > a.btn {
 	margin: 14% 11% auto;
 	text-align: center;
 }
-body#about_us_page .about_us_thumb > p{
+div#about_us_page .about_us_thumb > p{
 	margin-top: 45px;
 }
-body#about_us_page .single_staff .uk-overlay-background, body#staff_page .single_staff .uk-overlay-background, body#gallery_page .room_wrapper .uk-overlay-background{
+div#about_us_page .single_staff .uk-overlay-background, div#staff_page .single_staff .uk-overlay-background, div#gallery_page .room_wrapper .uk-overlay-background{
 	background: rgba(254, 109, 109, 0.8) none repeat scroll 0 0;
 	padding: 30px;
 	-webkit-transition: 0.6s;
 	-o-transition: 0.6s;
 	transition: 0.6s;
 }
-body#about_us_page .single_staff .single_staff_details h6, body#staff_page .single_staff .single_staff_details h6{
+div#about_us_page .single_staff .single_staff_details h6, div#staff_page .single_staff .single_staff_details h6{
 	font-size: 16px;
 	margin-bottom: 6px;
 }
-body#about_us_page .single_staff .single_staff_details span, body#staff_page .single_staff .single_staff_details span{
+div#about_us_page .single_staff .single_staff_details span, div#staff_page .single_staff .single_staff_details span{
 	font-size: 14px;
 	margin-bottom: 19px;
 	display: block;
 }
-body#about_us_page .single_staff .single_staff_details p, body#staff_page .single_staff .single_staff_details p{
+div#about_us_page .single_staff .single_staff_details p, div#staff_page .single_staff .single_staff_details p{
 	color: #fff;
 	font-size: 16px;
 	line-height: 26px;
 	margin-bottom: 0px;
 	margin-top: 0;
 }
-body#about_us_page .single_staff .social_icons ul li a, body#staff_page .single_staff .social_icons ul li a{
+div#about_us_page .single_staff .social_icons ul li a, div#staff_page .single_staff .social_icons ul li a{
 	display: inline-block;
 	margin: 22px 15px 22px 0;
 }
-body#about_us_page .single_staff .social_icons ul li a i, body#staff_page .single_staff .social_icons ul li a i{
+div#about_us_page .single_staff .social_icons ul li a i, div#staff_page .single_staff .social_icons ul li a i{
 	font-size: 18px;
 }
 
@@ -987,17 +993,17 @@ body#about_us_page .single_staff .social_icons ul li a i, body#staff_page .singl
 15. 					start accomodation page CSS
 -----------------------------------------------------------*/
 
-body#accomodation_page .breadcrumb_main_area, body#contact_us_page .breadcrumb_main_area, body#room_detail_page .breadcrumb_main_area{
+div#accomodation_page .breadcrumb_main_area, div#contact_us_page .breadcrumb_main_area, div#room_detail_page .breadcrumb_main_area{
 	background: url(img/accomodation-breadcrumb-one.jpg) no-repeat center center / cover #000000;
 	position: relative;
 }
-body#accomodation_page .range_slider span, body#accomodation_page .range_slider label{
+div#accomodation_page .range_slider span, div#accomodation_page .range_slider label{
 	color: #aab8ca;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 400;
 }
-body#accomodation_page .range_slider .range input{
+div#accomodation_page .range_slider .range input{
 	width: 53%;
 	display: inline-block;
 }
@@ -1065,14 +1071,14 @@ body#accomodation_page .range_slider .range input{
   min-height: 40px;
   padding-top: 3px;
 }
-body#contact_us_page .contact_info .social_icons > ul > li > a, .contact_info > ul > li{
+div#contact_us_page .contact_info .social_icons > ul > li > a, .contact_info > ul > li{
 	color: #999999;
 }
-body#contact_us_page .contact_info .social_icons > ul > li > a{
+div#contact_us_page .contact_info .social_icons > ul > li > a{
 	font-size: 20px;
 	padding-right: 30px;
 }
-body#contact_us_page .contact_info .social_icons > ul > li > a:hover{
+div#contact_us_page .contact_info .social_icons > ul > li > a:hover{
 	color: #313a45;
 }
 .submit_btn {
@@ -1124,46 +1130,46 @@ body#contact_us_page .contact_info .social_icons > ul > li > a:hover{
 -----------------------------------------------------------*/
 
 
-body#room_detail_page .lSSlideOuter .lSPager.lSGallery a:hover{
+div#room_detail_page .lSSlideOuter .lSPager.lSGallery a:hover{
 	opacity: 0.5;
 }
-body#room_detail_page .lSSlideOuter .lslide.active > img {
+div#room_detail_page .lSSlideOuter .lslide.active > img {
   height: auto;
   width: 100%;
 }
-body#room_detail_page .deluxe_room_detail .section_title h5 > span{
+div#room_detail_page .deluxe_room_detail .section_title h5 > span{
 	text-transform: none;
 }
-body#room_detail_page .deluxe_room_detail .section_title h5 > span.price{
+div#room_detail_page .deluxe_room_detail .section_title h5 > span.price{
 	font-size: 25px;
 	color: #131e2a;
 	font-family: "Lora",serif;
 }
-body#room_detail_page .deluxe_room_detail .section_title h5 > span.day{
+div#room_detail_page .deluxe_room_detail .section_title h5 > span.day{
 	font-size: 15px;
 	color: #8b8d90;
 	font-family: 'Karla', sans-serif;
 	margin-top: 7px;
 }
-body#room_detail_page .hotel_booking_area {
+div#room_detail_page .hotel_booking_area {
 	background: #313a45 none repeat scroll 0 0;
 	padding: 5px 5px 69px;
 	position: relative;
 }
-body#room_detail_page .hotel_booking a.btn {
+div#room_detail_page .hotel_booking a.btn {
 	bottom: calc(0px - 88px);
 	left: calc(50% - 43px);
 	position: absolute;
 	z-index: 20;
 }
-body#room_detail_page .hotel_booking_area .form-group{
+div#room_detail_page .hotel_booking_area .form-group{
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-body#room_detail_page .hotel_booking_area .room_book{
+div#room_detail_page .hotel_booking_area .room_book{
 	border-right: none;
 }
-body#room_detail_page .customer_comment{
+div#room_detail_page .customer_comment{
 	background: rgba(0, 0, 0, 0) url("img/customer-slider-bg-one.png") no-repeat scroll 0 0 / cover ;
 }
 
@@ -1177,20 +1183,20 @@ body#room_detail_page .customer_comment{
 18. 					start gallery page CSS
 -----------------------------------------------------------*/
 
-body#gallery_page .breadcrumb_main_area, body#booking_page .breadcrumb_main_area, body#blog_page .breadcrumb_main_area{
+div#gallery_page .breadcrumb_main_area, div#booking_page .breadcrumb_main_area, div#blog_page .breadcrumb_main_area{
 	background: url(img/gallery-breadcrumb.jpg) no-repeat center center / cover #000000;
 	position: relative;
 }
-body#gallery_page .accomodation_single_room .room_media{
+div#gallery_page .accomodation_single_room .room_media{
 	margin-bottom: 30px;
 }
-body#gallery_page .other_room .nav-tabs{
+div#gallery_page .other_room .nav-tabs{
 	border-bottom: 0px;
 }
-body#gallery_page .other_room ul.nav-tabs > li{
+div#gallery_page .other_room ul.nav-tabs > li{
 	margin-bottom: 0px;
 }
-body#gallery_page .other_room ul.nav-tabs > li > a{
+div#gallery_page .other_room ul.nav-tabs > li > a{
 	border-radius: 0;
 	color: #313a45;
 	font-weight: 700;
@@ -1199,14 +1205,14 @@ body#gallery_page .other_room ul.nav-tabs > li > a{
 	border: 2px solid #fff;
 	cursor: pointer;
 }
-body#gallery_page .other_room ul.nav-tabs > li.active a{
+div#gallery_page .other_room ul.nav-tabs > li.active a{
 	border: 2px solid #9d9d9d;
 }
-body#gallery_page .single_room_wrapper .dif_room_media img {
+div#gallery_page .single_room_wrapper .dif_room_media img {
 	height: 213px;
 	width: auto;
 }
-body#gallery_page .lslide.active > img {
+div#gallery_page .lslide.active > img {
   height: 100%;
   width: 100%;
 }
@@ -1241,7 +1247,7 @@ body#gallery_page .lslide.active > img {
 19. 					start booking page CSS
 -----------------------------------------------------------*/
 
-body#booking_page .booking_info_area .room_cost table td, body#booking_page .booking_done_area .room_cost table td{
+div#booking_page .booking_info_area .room_cost table td, div#booking_page .booking_done_area .room_cost table td{
 	padding: 15px;
 	text-align: center;
 	font-size: 14px;
@@ -1249,51 +1255,51 @@ body#booking_page .booking_info_area .room_cost table td, body#booking_page .boo
 	vertical-align: middle;
 	text-transform: uppercase;
 }
-body#booking_page .booking_info_area .room_cost table td span, body#booking_page .booking_done_area .room_cost table td span{
+div#booking_page .booking_info_area .room_cost table td span, div#booking_page .booking_done_area .room_cost table td span{
 	color: #313a45;
 	font-size: 16px;
 	font-weight: 700;
 }
-body#booking_page .booking_info_area .room_cost table tr > td:first-child, body#booking_page .booking_done_area .room_cost table tr > td:first-child{
+div#booking_page .booking_info_area .room_cost table tr > td:first-child, div#booking_page .booking_done_area .room_cost table tr > td:first-child{
 	text-align: left;
 }
-body#booking_page .booking_info_area .room_cost table tr.tax_table > td:nth-child(2), body#booking_page .booking_info_area .room_cost table tr.total_table > td:nth-child(2), body#booking_page .booking_done_area .room_cost table tr.tax_table > td:nth-child(2), body#booking_page .booking_done_area .room_cost table tr.total_table > td:nth-child(2){
+div#booking_page .booking_info_area .room_cost table tr.tax_table > td:nth-child(2), div#booking_page .booking_info_area .room_cost table tr.total_table > td:nth-child(2), div#booking_page .booking_done_area .room_cost table tr.tax_table > td:nth-child(2), div#booking_page .booking_done_area .room_cost table tr.total_table > td:nth-child(2){
 	text-align: right;
 }
-body#booking_page .booking_done_area .room_cost table td span.total_pain_info{
+div#booking_page .booking_done_area .room_cost table td span.total_pain_info{
 	color: #88d54f;
 }
-body#booking_page .booking_next_btn {
+div#booking_page .booking_next_btn {
  	width: 100%;
 }
-body#booking_page .booking_info_area .facilities_name .star i.fa-star{
+div#booking_page .booking_info_area .facilities_name .star i.fa-star{
 	color: #f9cf01;
 }
-body#booking_page .booking_info_area .facilities_name .star i.fa-star-o{
+div#booking_page .booking_info_area .facilities_name .star i.fa-star-o{
 	color: #666666;
 }
-body#booking_page .facilities_name .section_title {
+div#booking_page .facilities_name .section_title {
   margin-bottom: 30px;
 }
-body#booking_page .booking_info_area .facilities_name .section_title h5{
+div#booking_page .booking_info_area .facilities_name .section_title h5{
 	color: #444444;
 	font-family: "Lora",serif;
 	font-size: 18px;
 	text-transform: none;
 }
-body#booking_page .booking_info_area .facilities_name .section_title h5 p.price{
+div#booking_page .booking_info_area .facilities_name .section_title h5 p.price{
 	
 }
-body#booking_page .booking_info_area .facilities_name .section_title h5 sup.day{
+div#booking_page .booking_info_area .facilities_name .section_title h5 sup.day{
 	font-size: 11px;
 }
-body#booking_page .booking ul.nav-tabs{
+div#booking_page .booking ul.nav-tabs{
 	border: none;
 }
-body#booking_page .booking ul.nav-tabs > li{
+div#booking_page .booking ul.nav-tabs > li{
 	width: 25%;
 }
-body#booking_page .booking ul.nav-tabs > li > a{
+div#booking_page .booking ul.nav-tabs > li > a{
 	border: none;
 	border-bottom: 9px solid #e4e4e4;
 	cursor: pointer;
@@ -1304,12 +1310,12 @@ body#booking_page .booking ul.nav-tabs > li > a{
 	font-size: 18px;
 	font-family: 'Playfair Display', serif;
 }
-body#booking_page .booking ul.nav-tabs > li > a > span {
+div#booking_page .booking ul.nav-tabs > li > a > span {
 	display: block;
 	margin-top: 15px;
 	margin-bottom: 40px;
 }
-body#booking_page .booking ul.nav-tabs > li > a > i{
+div#booking_page .booking ul.nav-tabs > li > a > i{
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #656464;
 	border-radius: 50%;
@@ -1319,19 +1325,19 @@ body#booking_page .booking ul.nav-tabs > li > a > i{
 	padding: 11px 22px 11px 18px;
 	text-align: center;
 }
-body#booking_page .booking ul.nav-tabs > li.active > a > i{
+div#booking_page .booking ul.nav-tabs > li.active > a > i{
 	background: #fe5d5d;
 	color: #fff;
 	border: 1px solid #fe5d5d;
 }
-body#booking_page .booking ul.nav-tabs > li.active > a{
+div#booking_page .booking ul.nav-tabs > li.active > a{
 	border-bottom: 9px solid #fe5d5d;
 }
-body#booking_page .personal_info_area .hotel_booking, #booking_page .payment_info_area .hotel_booking{
+div#booking_page .personal_info_area .hotel_booking, #booking_page .payment_info_area .hotel_booking{
 	background: none;
 	padding: 0;
 }
-body#booking_page .personal_info_area .hotel_booking_area select#adult, body#booking_page .personal_info_area .hotel_booking_area select#smoking_room, body#booking_page .personal_info_area .hotel_booking_area select#parking, body#booking_page .personal_info_area .hotel_booking_area select#with_pet, body#booking_page .personal_info_area .hotel_booking_area input, body#booking_page .payment_info_area .hotel_booking_area input, body#booking_page .payment_info_area .hotel_booking_area select#enter_month, body#booking_page .payment_info_area .hotel_booking_area select#enter_year{
+div#booking_page .personal_info_area .hotel_booking_area select#adult, div#booking_page .personal_info_area .hotel_booking_area select#smoking_room, div#booking_page .personal_info_area .hotel_booking_area select#parking, div#booking_page .personal_info_area .hotel_booking_area select#with_pet, div#booking_page .personal_info_area .hotel_booking_area input, div#booking_page .payment_info_area .hotel_booking_area input, div#booking_page .payment_info_area .hotel_booking_area select#enter_month, div#booking_page .payment_info_area .hotel_booking_area select#enter_year{
 	border: 1px solid #dbdbdb;
 	min-height: 45px;
 	margin-bottom: 30px;
@@ -1339,14 +1345,14 @@ body#booking_page .personal_info_area .hotel_booking_area select#adult, body#boo
 	text-transform: uppercase;
 	padding-left: 22px;
 }
-body#booking_page .personal_info_area .hotel_booking_area .form-group.icon_arrow:after, body#booking_page .payment_info_area .hotel_booking_area .form-group.icon_arrow:after{
+div#booking_page .personal_info_area .hotel_booking_area .form-group.icon_arrow:after, div#booking_page .payment_info_area .hotel_booking_area .form-group.icon_arrow:after{
 	top: 3%;
 }
-body#booking_page .personal_info_area .hotel_booking_area textarea{
+div#booking_page .personal_info_area .hotel_booking_area textarea{
 	outline: none;
 	text-transform: uppercase;
 }
-body#booking_page .payment_info_area .payment_system ul li{
+div#booking_page .payment_info_area .payment_system ul li{
 	float: left;
 	margin-right: 13px;
 }
@@ -1455,7 +1461,7 @@ margin-right: 12px;
   font-size: 20px;
   padding: 31px 35px;
 }
-body#blog_page .b_link {
+div#blog_page .b_link {
   background: none repeat scroll 0 0 #49515b;
 bottom: 7px;
 font-size: 17px;
@@ -1489,7 +1495,7 @@ right: 1px;
 21. 					start single blog page CSS
 -----------------------------------------------------------*/
 
-body#single_blog_page .breadcrumb_main_area{
+div#single_blog_page .breadcrumb_main_area{
 	background: url(img/gallery-breadcrumb.jpg) no-repeat center center / cover #000000;
 	position: relative;
 }
@@ -1754,12 +1760,12 @@ ul.coments li ul li {
 .padding-0{
     padding: 0;
 }
-body#single_blog_page .right_sidebar_area .input_search {
+div#single_blog_page .right_sidebar_area .input_search {
   background: #f0f0f0 none repeat scroll 0 0;
   padding: 30px;
   width: ;
 }
-body#single_blog_page .input_search > input {
+div#single_blog_page .input_search > input {
   border: 0 none;
   padding: 5px;
   width: 100%;
@@ -1783,19 +1789,19 @@ body#single_blog_page .input_search > input {
   background: #f0f0f0 none repeat scroll 0 0;
   padding: 30px;
 }
-body#single_blog_page .single_recent_post{
+div#single_blog_page .single_recent_post{
 	margin-bottom: 20px;
 }
-body#single_blog_page .recent_post_details > h6, body#single_blog_page .recent_post_tags > h6{
+div#single_blog_page .recent_post_details > h6, div#single_blog_page .recent_post_tags > h6{
 	font-family: 'Karla', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: none;
 }
-body#single_blog_page .recent_post_tags > h6{
+div#single_blog_page .recent_post_tags > h6{
 	margin: 5px;
 }
-body#single_blog_page .recent_post_details > p {
+div#single_blog_page .recent_post_details > p {
   font-size: 12px;
   margin-bottom: 0;
   margin-top: 3px;
@@ -1934,7 +1940,7 @@ body#single_blog_page .recent_post_details > p {
 		margin-right:20%;
 	  
 	}
-	body#home_one .special_offer_main {
+	div#home_one .special_offer_main {
 		margin-top:100px;
 		display:none;
 	}

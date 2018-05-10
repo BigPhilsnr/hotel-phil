@@ -400,7 +400,7 @@ h6{
   position: relative;
 }
 .section_title.nice_title > h3::after {
-    background: rgba(0, 0, 0, 0) url("../img/nice-title.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("img/nice-title.png") no-repeat scroll 0 0;
     bottom: -30%;
     content: "";
     height: 50%;
@@ -417,7 +417,7 @@ h6{
     width: 100%;
 }
 .breadcrumb_main.nice_title > h2::after{
-    background: rgba(0, 0, 0, 0) url("../img/nice-title-breadcrumb.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("img/nice-title-breadcrumb.png") no-repeat scroll 0 0;
     bottom: -30%;
     content: "";
     height: 50%;
@@ -1058,7 +1058,7 @@ a.btn.btn-black {
 @media screen and (max-width: 600px) {
   .section_title.nice_title > h3::after {
     background-position:center;
-    background:Center rgba(0, 0, 0, 0) url("../img/nice-title.png") no-repeat scroll 0 0 ;
+    background:Center rgba(0, 0, 0, 0) url("img/nice-title.png") no-repeat scroll 0 0 ;
     
     
   

@@ -17,8 +17,12 @@ price:{
 img:{
 type:String, required:true
 },
+category:{
+    type:String
+    },
 status:{type:String, required:true},
-complements:{type:String}
+complements:{type:String},
+priority:{type:Number}
 
 });
 var Room=module.exports=mongoose.model('Room',RoomSchema);

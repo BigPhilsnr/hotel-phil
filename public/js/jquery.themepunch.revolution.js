@@ -26,7 +26,7 @@
 				// SET DEFAULT VALUES OF ITEM //
 				////////////////////////////////
 				jQuery.fn.revolution.defaults = {
-					delay:9000,
+					delay:80,
 					startheight:500,
 					startwidth:960,
 					fullScreenAlignForce:"off",

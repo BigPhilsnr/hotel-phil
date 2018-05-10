@@ -82,6 +82,9 @@ body#home_one .special_offer_dbl_sub, body#home_two .special_offer_dbl_sub, body
 .hotel_booking_area input#datepicker, .hotel_booking_area input#datepicker1, .hotel_booking_area select#room, .hotel_booking_area select#adult, .hotel_booking_area select#child {
   font-size: 11px;
 }
+.hotel_booking_area input#datepickerx, .hotel_booking_area input#datepickery, .hotel_booking_area select#room, .hotel_booking_area select#adult, .hotel_booking_area select#child {
+  font-size: 11px;
+}
 .icon_arrow::after {
   font-size: 11px;
 }
@@ -287,6 +290,9 @@ body#home_one .hotel_booking_area {
 }
 .hotel_booking {
   padding: 26px 0px;
+}
+.custdt{
+  background-color: rgba(0,0,0,0);  border: 0px;  margin-top: 8%;  color: navajowhite;
 }
 .hotel_booking_area input#datepicker, .hotel_booking_area input#datepicker1, .hotel_booking_area select#room, .hotel_booking_area select#adult, .hotel_booking_area select#child {
   font-size: 13px;
