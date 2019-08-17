@@ -154,7 +154,7 @@ app.controller('home', function ($scope, $rootScope, $http, $location, Customer,
   $scope.home = {};
   $scope.home.Title1 = "";
   var uploadFolder = "uploads/";
-  var socket = io.connect('http://34.202.247.40:9999');
+  var socket = io();
   console.log(socket)
   socket.on('error', function (err) {
     console.log(err)

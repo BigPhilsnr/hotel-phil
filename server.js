@@ -47,8 +47,6 @@ var db = mongoose.connection;
 var app = express();
 
 
-
-
 app.use(cors());
 app.options('*', cors());
 app.use(express.static(__dirname + '/public'));
@@ -66,7 +64,13 @@ app.use(bodyParser.urlencoded({
 }));
 
 var http = require('http').Server(app);
-var io = require('socket.io')(9999);
+var socketIO= require('socket.io');
+var io=socketIO(http);
+
+io.configure(function () {
+  io.set("transports", ["xhr-polling"]);
+  io.set("polling duration", 10);
+});
 
 io.on('connection', function (socket) {
   console.log("connected")
