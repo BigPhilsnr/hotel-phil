@@ -34,7 +34,7 @@ var section = require("./Models/section");
 var News = require("./Models/news");
 
 //set up database
-mongoose.connect("mongodb://localhost/hostel", function (err) {
+mongoose.connect("mongodb://saf:ademba4@ds119660.mlab.com:19660/hostel", function (err) {
   if (err) {
     console.log(err)
   } else {
@@ -987,7 +987,7 @@ app.get('/search', function (req, res) {
 //end routes
 
 //Start listening for requests
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 7080;
 app.listen(port, function () {
 
   console.log("app runinng at  p 8000");
