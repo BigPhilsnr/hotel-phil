@@ -67,11 +67,6 @@ var http = require('http').Server(app);
 var socketIO= require('socket.io');
 var io=socketIO(http);
 
-io.configure(function () {
-  io.set("transports", ["xhr-polling"]);
-  io.set("polling duration", 10);
-});
-
 io.on('connection', function (socket) {
   console.log("connected")
 
