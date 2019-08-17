@@ -66,7 +66,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 var http = require('http').Server(app);
-var io = require('socket.io')(8080);
+var io = require('socket.io')(9999);
 
 io.on('connection', function (socket) {
   console.log("connected")
