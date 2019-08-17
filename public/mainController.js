@@ -154,7 +154,7 @@ app.controller('home', function ($scope, $rootScope, $http, $location, Customer,
   $scope.home = {};
   $scope.home.Title1 = "";
   var uploadFolder = "uploads/";
-  var socket = io.connect('https://frozen-wave-54959.herokuapp.com');
+  var socket = io.connect('http://frozen-wave-54959.herokuapp.com');
   console.log(socket)
   socket.on('error', function (err) {
     console.log(err)
