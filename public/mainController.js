@@ -158,6 +158,7 @@ app.controller('home', function ($scope, $rootScope, $http, $location, Customer,
   console.log(socket)
   socket.on('error', function (err) {
     console.log(err)
+    alert("failed")
   })
   socket.on('connect', function (socket) {
     $timeout(() => {

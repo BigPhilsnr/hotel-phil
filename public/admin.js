@@ -25,8 +25,6 @@ app.config(function($routeProvider,$locationProvider) {
 });
  app.filter('wraps', function () {
     return function (value) {
-       
-
         return "uploads/"+value; 
     };
 });
@@ -138,12 +136,10 @@ app.controller('Booking',function($scope,$http,Customer){
     var urld="getUsers"
 	$http.get(urld).then(function(response){ 
        var data=response.data;
-       
-   
-    $scope.users=data;;
-     
-        
+       $scope.users=data;;
+         
     });
+
     $http.get('ball').then(function(response){
     $scope.bookings=response.data;
     });
@@ -296,11 +292,15 @@ $scope.getFb=function(x){
     })
     }
 
+   
+    $scope.welcomeText={}
     $scope.updateWelcome = function() {
+
         toastr.success('Processing', 'Updating.. ', {timeOut: 5000});
      var myForm = document.getElementById('welcome');
         formData = new FormData(myForm );
-        jQuery.post('saveWelcome',{title:$scope.title,details:$scope.details},function(){
+        alert(JSON.stringify($scope.welcomeText));
+        jQuery.post('saveWelcome',{title:$scope.welcomeText.title,details:$scope.welcomeText.details},function(){
             swal(
                 'Success',
                 'Details updated successfully',
@@ -308,7 +308,6 @@ $scope.getFb=function(x){
               );
         })
        
-
     }
 
     

@@ -68,7 +68,7 @@
                             <div class="cols-sm-10">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                                    <input ng-model="title" type="text" class="form-control" name="title" id="name" placeholder="Enter home title">
+                                    <input ng-model="welcomeText.title" type="text" class="form-control" name="title" id="name" placeholder="Enter home title">
                     
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                             <div class="cols-sm-10">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></span>
-                                    <textarea ng-model="details"  name="details" rows="8" cols="30" class="form-control">
+                                    <textarea ng-model="welcomeText.details"  name="details" rows="8" cols="30" class="form-control">
                                       </textarea>
                                 </div>
                             </div>
@@ -165,8 +165,6 @@
         <div class="panel-heading"  ng-click="sd=!sd">
           <span class="panel-title">Hotel Facilities </span>
           <i class="fa fa-pencil pull-right"></i>
-          
-       
         </div>
         <div class="panel-body"  ng-if="!sd">
             <div class="row">

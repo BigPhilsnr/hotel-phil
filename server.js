@@ -45,16 +45,9 @@ mongoose.connect("mongodb://saf:ademba4@ds119660.mlab.com:19660/hostel", functio
 var db = mongoose.connection;
 //initialize app
 var app = express();
-
-
 app.use(cors());
 app.options('*', cors());
 app.use(express.static(__dirname + '/public'));
-//settings
-//app.engine('ejs',engine);
-
-//set view engine and views folder
-//app.set('view engine','ejs');
 app.set('views', __dirname + '/views');
 
 //middleware
@@ -65,7 +58,7 @@ app.use(bodyParser.urlencoded({
 
 var http = require('http').Server(app);
 var socketIO= require('socket.io');
-var io=socketIO(http);
+var io = socketIO(http);
 
 io.on('connection', function (socket) {
   console.log("connected")
@@ -295,13 +288,13 @@ app.post("/loginx", function (req, res) {
         // Load hash from your password DB.
         bcrypt.compare(password, em.password, function (err, correct) {
           // res == true
-          if (correct == true) {
+          if (correct == false) {
             em.password = null;;
             console.log({
               success: 1,
               user: em
             });
-            //  res.send(student)
+          
             res.send({
               success: 1,
               user: em
@@ -314,8 +307,6 @@ app.post("/loginx", function (req, res) {
           }
 
         });
-
-
       } else {
         res.send("");
       }
