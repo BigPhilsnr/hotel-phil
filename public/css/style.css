@@ -847,7 +847,7 @@ div#error_page .error h3 {
   color: #fe5d5d;
   font-size: 44px;
   padding-bottom: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 70px;
 }
 div#error_page .error .section_title.nice_title > h3::after {
 	background: rgba(0, 0, 0, 0) url("img/nice-title-error.png") no-repeat scroll 0 0;
