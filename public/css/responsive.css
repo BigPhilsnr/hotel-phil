@@ -516,7 +516,7 @@ body#single_blog_page .right_sidebar_area{
 
 @media only screen and (max-width: 767px) {
 .container {
-    width:300px;
+    width:315px;
 }
 body#booking_page .facilities_name .section_title {
   margin-bottom: 10px;
