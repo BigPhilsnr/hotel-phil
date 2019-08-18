@@ -61,7 +61,7 @@ a:hover{
 	color: #16b4ef;
 }
 .mainmenu {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .mainmenu ul#nav{
 	margin: 0;
@@ -88,7 +88,7 @@ a:hover{
 	padding: 0 0 0 14px;
 }
 .header_login > ul > li > a{	
-	font-size: 14px;
+	font-size: 19px;
 	text-transform: uppercase;
 }
 .mainmenu .nav.navbar-nav {
