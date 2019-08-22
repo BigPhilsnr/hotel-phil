@@ -98,6 +98,7 @@ app.filter('cut', function () {
         return value + (tail || ' …');
     };
 });
+
 app.controller('Booking',function($scope,$http,Customer){
 
     $scope.room={};
