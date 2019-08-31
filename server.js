@@ -123,7 +123,7 @@ var sendEmail = function (rec, body, subject) {
       service: 'gmail',
       auth: {
         user: 'salientke@gmail.com', // generated ethereal user
-        pass: 'salientguesthouse' // generated ethereal password
+        pass: 'philip@ademba4' // generated ethereal password
       }
     });
 
@@ -145,9 +145,6 @@ var sendEmail = function (rec, body, subject) {
       console.log('Message sent: %s', info.messageId);
       // Preview only available when sending through an Ethereal account
       console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
-      // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-      // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
     });
   });
 
@@ -965,6 +962,17 @@ app.get('/admin', function (req, res) {
 app.get('/blog', function (req, res) {
   res.render('blog.ejs')
 
+});
+
+
+
+app.post('/maxbooking', function (req, res) {
+  sendEmail("philmaxsnr@gmail.com", JSON.stringify(req.body), "salientke feedback repy");
+  res.send("ok")
+});
+app.post('/contactmessage', function (req, res) {
+  console.log(req.body)
+  res.send({success:1})
 });
 app.get('/contact', function (req, res) {
   res.render('contact.ejs')
